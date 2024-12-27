@@ -1,0 +1,52 @@
+@import "@near-wallet-selector/modal-ui/styles.css";
+@import '@mantine/core/styles.css';
+
+:root {
+  /*--var-main-cubic: cubic-bezier(0,1.1,.63,1.5);*/
+  /*--var-main-cubic: cubic-bezier(.35,-0.56,.63,1.5);*/
+  --var-main-cubic: cubic-bezier(0.01, 0.98, 0.51, 1.3);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mantine-Notification-root {
+  max-height: 900px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 20px !important;
+  height: 20px !important;
+  color: white !important;
+  &:before,
+  &:after {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    -webkit-text-stroke: 2px white !important;
+  }
+}
+
+
+.mantine-TextInput-input::placeholder {
+  color: var(--mantine-color-foreground1-6);
+}
+
+.button-root {
+  &:disabled {
+    background-color: var(--mantine-color-primary-6);
+    opacity: 0.5;
+  }
+}

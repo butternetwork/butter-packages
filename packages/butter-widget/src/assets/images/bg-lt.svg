@@ -1,0 +1,36 @@
+<svg width="195" height="291" viewBox="0 0 195 291" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="umo9f5dp5a">
+            <stop stop-color="#F6D536" offset="0%"/>
+            <stop stop-color="#F6D536" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b6o1cze2db">
+            <stop stop-color="#F6D536" offset="0%"/>
+            <stop stop-color="#F6D536" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ra23rrkr2c">
+            <stop stop-color="#F6D536" offset="0%"/>
+            <stop stop-color="#F6D536" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="61p2xxse4d">
+            <stop stop-color="#F6D536" offset="0%"/>
+            <stop stop-color="#F6D536" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="96k8xcyexe">
+            <stop stop-color="#F6D536" offset="0%"/>
+            <stop stop-color="#F6D536" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="59yoqjprdf">
+            <stop stop-color="#F6D536" offset="0%"/>
+            <stop stop-color="#F6D536" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g stroke-width="5" fill="none" fill-rule="evenodd" opacity=".054">
+        <path d="M96 0C42.98 0 0 44.655 0 99.738V526h192V99.738C192 44.655 149.02 0 96 0z" stroke="url(#umo9f5dp5a)" transform="matrix(1 0 0 -1 0 288)"/>
+        <path d="M95.5 18C52.216 18 17 54.715 17 99.85V508h157V99.85C174 54.714 138.788 18 95.5 18z" stroke="url(#b6o1cze2db)" transform="matrix(1 0 0 -1 0 288)"/>
+        <path d="M95.5 36C61.59 36 34 64.704 34 99.987V490h123V99.987C157 64.704 129.41 36 95.5 36z" stroke="url(#ra23rrkr2c)" transform="matrix(1 0 0 -1 0 288)"/>
+        <path d="M95.5 53C70.963 53 51 73.752 51 99.258V472h89V99.258C140 73.752 120.037 53 95.5 53z" stroke="url(#61p2xxse4d)" transform="matrix(1 0 0 -1 0 288)"/>
+        <path d="M95.5 71C80.337 71 68 83.744 68 99.413V454h55V99.413C123 83.744 110.666 71 95.5 71z" stroke="url(#96k8xcyexe)" transform="matrix(1 0 0 -1 0 288)"/>
+        <path d="M95.5 89C89.711 89 85 93.768 85 99.63V437h21V99.63C106 93.767 101.289 89 95.5 89z" stroke="url(#59yoqjprdf)" transform="matrix(1 0 0 -1 0 288)"/>
+    </g>
+</svg>

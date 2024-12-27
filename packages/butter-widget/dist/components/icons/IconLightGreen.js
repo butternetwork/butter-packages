@@ -1,0 +1,6 @@
+"use client";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const IconLightGreen = () => {
+    return (_jsxs("svg", { width: "12", height: "15", viewBox: "0 0 12 15", xmlns: "http://www.w3.org/2000/svg", children: [_jsx("defs", { children: _jsx("path", { id: "u3y6w40j1a", d: "M0 0h12v15H0z" }) }), _jsxs("g", { fill: "none", fillRule: "evenodd", children: [_jsx("mask", { id: "klrmdvew5b", fill: "#fff", children: _jsx("use", { xlinkHref: "#u3y6w40j1a" }) }), _jsx("path", { d: "M4.908 2.263c-1.765.319-2.636 1.48-2.74 3.312a.511.511 0 0 0 .492.532.515.515 0 0 0 .55-.476c.08-1.4.642-2.15 1.89-2.375a.507.507 0 0 0 .417-.59.521.521 0 0 0-.609-.403zM6 0c3.314 0 6 2.601 6 5.81 0 2.029-1.074 3.815-2.702 4.854l-.039.175c-.026.12-.06.277-.105.47-.103.46-.52.789-1.003.795H3.84c-.497 0-.926-.34-1.023-.811l-.049-.23c-.057-.275-.09-.414-.1-.42C1.06 9.603 0 7.826 0 5.81 0 2.6 2.686 0 6 0zm2 12.564c.288 0 .522.227.522.506a.513.513 0 0 1-.51.505H4a.514.514 0 0 1-.522-.505c0-.275.226-.498.51-.506h4.011zm-.702 1.425c.288 0 .522.227.522.507a.513.513 0 0 1-.51.504H4.73a.514.514 0 0 1-.522-.504c0-.276.227-.5.51-.507h2.581z", fill: "#5CD022", mask: "url(#klrmdvew5b)" })] })] }));
+};
+export default IconLightGreen;

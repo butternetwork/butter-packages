@@ -1,0 +1,51 @@
+.swiper {
+  overflow: visible;
+}
+
+.swiperSlide {
+  width: min-content;
+  @media (max-width: 48em) {
+  }
+}
+
+.embla {
+}
+
+.prevButton {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  -webkit-text-stroke: 2px white;
+  width: 50px;
+  @media (min-width: 900px) {
+    display: none;
+  }
+}
+
+.nextButton {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform-origin: center;
+  transform: translateY(-50%) rotate(180deg);
+  z-index: 10;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  -webkit-text-stroke: 2px white;
+  width: 50px;
+  @media (min-width: 900px) {
+    display: none;
+  }
+}

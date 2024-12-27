@@ -1,0 +1,5 @@
+{
+  "name": "butterswap",
+  "description": "1st ZK light-client cross-chain aggregator swap. Minimized ZK verification time & optimized gas fees. One-click exchanges btw popular chains & BTC ecosystem.",
+  "iconPath": "./logo.png"
+}

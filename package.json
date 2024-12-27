@@ -1,0 +1,17 @@
+{
+  "name": "butter-monorepo",
+  "packageManager": "yarn@3.3.1",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "storybook:widget": "yarn workspace @butternetwork/widget run storybook",
+    "dev:react": "yarn workspace butter-widget-demo run dev",
+    "build:widget": "yarn workspace @butternetwork/widget run build",
+    "build:react": "yarn workspace butter-widget-demo run build",
+    "start:react": "yarn workspace butter-widget-demo run start",
+    "build:sdk": "yarn workspace @butternetwork/sdk run build",
+    "publish:widget": "yarn workspace @butternetwork/widget run release"
+  }
+}

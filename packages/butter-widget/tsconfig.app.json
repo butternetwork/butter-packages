@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true,             // 生成 .d.ts 类型声明文件
+    // "declarationDir": "./dist",  // 类型声明文件的输出目录
+    // "emitDeclarationOnly": true,     // 仅输出声明文件，不编译 JS 代码
+    "outDir": "./dist",
+    "noEmitHelpers": false,
+    "importHelpers": true,
+    "noResolve": false,
+    "noEmit": false,
+    "noEmitOnError": false,
+    "inlineSourceMap": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist", "tests"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": "off" // Add this line to ignore TS6133
+  }
+}
