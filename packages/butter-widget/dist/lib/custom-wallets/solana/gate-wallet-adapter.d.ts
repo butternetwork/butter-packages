@@ -1,7 +1,5 @@
-import type { SendTransactionOptions, WalletName } from "@solana/wallet-adapter-base";
-import { BaseMessageSignerWalletAdapter, WalletReadyState } from "@solana/wallet-adapter-base";
-import type { Connection, Transaction, TransactionSignature, TransactionVersion, VersionedTransaction } from "@solana/web3.js";
-import { PublicKey } from "@solana/web3.js";
+import { SendTransactionOptions, WalletName, BaseMessageSignerWalletAdapter, WalletReadyState } from '@solana/wallet-adapter-base';
+import { Connection, Transaction, TransactionSignature, TransactionVersion, VersionedTransaction, PublicKey } from '@solana/web3.js';
 export interface GateWalletAdapterConfig {
 }
 export declare const GateWalletName: WalletName<"Gate">;

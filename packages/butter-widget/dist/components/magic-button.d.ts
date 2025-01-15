@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren } from 'react';
 type MagicButtonProps = {
     width: number | string;
     height: number | string;

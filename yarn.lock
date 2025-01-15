@@ -704,7 +704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@butternetwork/sdk@workspace:^, @butternetwork/sdk@workspace:packages/butter-sdk":
+"@butternetwork/sdk@0.0.45, @butternetwork/sdk@workspace:packages/butter-sdk":
   version: 0.0.0-use.local
   resolution: "@butternetwork/sdk@workspace:packages/butter-sdk"
   dependencies:
@@ -738,7 +738,7 @@ __metadata:
   resolution: "@butternetwork/widget@workspace:packages/butter-widget"
   dependencies:
     "@binance/w3w-rainbow-connector": ^1.1.4
-    "@butternetwork/sdk": "workspace:^"
+    "@butternetwork/sdk": 0.0.45
     "@chromatic-com/storybook": ^3.2.2
     "@emotion/cache": ^11.14.0
     "@emotion/react": ^11.14.0

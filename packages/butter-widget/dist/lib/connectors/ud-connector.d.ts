@@ -1,4 +1,4 @@
-import { InjectedConnector } from "wagmi/connectors/injected";
+import { InjectedConnector } from 'wagmi/connectors/injected';
 export declare class UdConnector extends InjectedConnector {
     readonly id = "ud";
     readonly name = "ud";

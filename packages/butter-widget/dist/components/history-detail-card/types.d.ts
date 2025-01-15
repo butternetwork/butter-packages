@@ -1,4 +1,4 @@
-import { UserSwapHistoryDetailResponse, UserSwapHistoryResponseItem } from "../../utils/api/types";
+import { UserSwapHistoryDetailResponse, UserSwapHistoryResponseItem } from '../../utils/api/types';
 export type HistoryDetailCardProps = {
     show: boolean;
     onClose: () => void;

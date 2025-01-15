@@ -7,7 +7,7 @@ declare const useTablePageChange: ({ baseParams }: Props) => {
     handlePageSizeChange: (size: string) => void;
     handlePageChange: (page: number) => void;
     totalPage: number;
-    setTotalPage: import("react").Dispatch<import("react").SetStateAction<number>>;
+    setTotalPage: import('react').Dispatch<import('react').SetStateAction<number>>;
     changeRoute: (page: number, size: number) => void;
 };
 export default useTablePageChange;

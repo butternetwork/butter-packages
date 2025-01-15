@@ -1,5 +1,5 @@
-import { ButterSDKConfigOptions } from "@butternetwork/sdk";
-import { ReactNode } from "react";
+import { ButterSDKConfigOptions } from '@butternetwork/sdk';
+import { ReactNode } from 'react';
 export interface ButterWidgetConfig {
     title?: ReactNode;
     sdkOptions: Omit<ButterSDKConfigOptions, "providers">;

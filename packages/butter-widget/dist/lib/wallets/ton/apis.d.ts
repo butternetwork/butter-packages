@@ -1,2 +1,2 @@
-import { TonClient } from "@ton/ton";
+import { TonClient } from '@ton/ton';
 export declare const tonClient: TonClient;

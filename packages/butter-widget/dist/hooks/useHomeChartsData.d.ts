@@ -1,4 +1,4 @@
-import { ChartsData, HomepageChartsData } from "../utils/data-types";
+import { ChartsData, HomepageChartsData } from '../utils/data-types';
 type Props = {
     data: HomepageChartsData | null;
 };

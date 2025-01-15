@@ -1,6 +1,5 @@
-import "./global.css";
-import { PropsWithChildren } from "react";
-import { ButterWidgetConfig } from "./config/types";
+import { PropsWithChildren } from 'react';
+import { ButterWidgetConfig } from './config/types';
 export declare const useButterWidgetContext: () => {
     config: ButterWidgetConfig | null;
 };

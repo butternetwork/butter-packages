@@ -1,4 +1,4 @@
-import { ButterWidgetConfig } from "../config/types";
+import { ButterWidgetConfig } from '../config/types';
 export declare const defaultColors: {
     primary: string;
     red: string;
@@ -12,5 +12,5 @@ export declare const defaultColors: {
 };
 declare const useMantineThemeWithConfig: ({ config }: {
     config: Pick<ButterWidgetConfig, "colors" | "fontFamily">;
-}) => import("type-fest/source/partial-deep").PartialObjectDeep<import("@mantine/core").MantineTheme, {}>;
+}) => import('type-fest/source/partial-deep').PartialObjectDeep<import('@mantine/core').MantineTheme, {}>;
 export default useMantineThemeWithConfig;

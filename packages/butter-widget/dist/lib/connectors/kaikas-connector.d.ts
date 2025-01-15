@@ -1,4 +1,4 @@
-import { Wallet } from "@rainbow-me/rainbowkit";
+import { Wallet } from '@rainbow-me/rainbowkit';
 declare global {
     interface Window {
         klaytn: any;

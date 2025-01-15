@@ -1,4 +1,4 @@
-import { WalletName } from "./types";
+import { WalletName } from './types';
 export declare const TON_CHAINID = "1360104473493505";
 export declare const BTC_CHAINID = "313230561203979757";
 export declare const IsomericChainIds: {

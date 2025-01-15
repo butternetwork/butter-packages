@@ -1,4 +1,4 @@
-import { Route } from "@butternetwork/sdk";
+import { Route } from '@butternetwork/sdk';
 export type GetRouteDataProps = {
     fromChainId: string;
     toChainId: string;
@@ -10,12 +10,12 @@ export type GetRouteDataProps = {
     id?: number;
     entrance: string;
 };
-declare const getRouteData: import("@reduxjs/toolkit").AsyncThunk<{
+declare const getRouteData: import('@reduxjs/toolkit').AsyncThunk<{
     data: Route[];
     id: number;
 }, GetRouteDataProps, {
     state?: unknown;
-    dispatch?: import("redux-thunk").ThunkDispatch<unknown, unknown, import("redux").UnknownAction>;
+    dispatch?: import('redux-thunk').ThunkDispatch<unknown, unknown, import('redux').UnknownAction>;
     extra?: unknown;
     rejectValue?: unknown;
     serializedErrorType?: unknown;

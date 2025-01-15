@@ -1,2 +1,2 @@
-import { ButterWidget } from "./ButterWidget";
+import { ButterWidget } from './ButterWidget';
 export { ButterWidget };

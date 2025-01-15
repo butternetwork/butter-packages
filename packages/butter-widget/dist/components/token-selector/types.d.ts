@@ -1,4 +1,4 @@
-import { Chain, Token } from "@butternetwork/sdk";
+import { Chain, Token } from '@butternetwork/sdk';
 export type TokenSelectorProps = {
     show: boolean;
     position: "from" | "to";

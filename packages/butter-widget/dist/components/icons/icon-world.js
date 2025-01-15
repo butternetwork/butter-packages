@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const IconWorld = ({ color, ...props }) => (_jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", className: "icon icon-tabler icon-tabler-world", width: 44, height: 44, viewBox: "0 0 24 24", strokeWidth: 1.5, stroke: color, fill: "none", strokeLinecap: "round", strokeLinejoin: "round", ...props, children: [_jsx("path", { stroke: "none", d: "M0 0h24v24H0z", fill: "none" }), _jsx("path", { d: "M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" }), _jsx("path", { d: "M3.6 9h16.8" }), _jsx("path", { d: "M3.6 15h16.8" }), _jsx("path", { d: "M11.5 3a17 17 0 0 0 0 18" }), _jsx("path", { d: "M12.5 3a17 17 0 0 1 0 18" })] }));
-export default IconWorld;

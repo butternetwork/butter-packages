@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import InnerWidget from './Widget';
+import { Meta, StoryObj } from '@storybook/react';
+import { default as InnerWidget } from './Widget';
 declare const meta: Meta<typeof InnerWidget>;
 export default meta;
 type Story = StoryObj<typeof InnerWidget>;

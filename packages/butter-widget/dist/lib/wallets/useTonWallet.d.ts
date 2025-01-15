@@ -1,3 +1,3 @@
-import { WalletProvider } from "./useWallets";
+import { WalletProvider } from './useWallets';
 declare const useTonWallet: () => WalletProvider;
 export default useTonWallet;

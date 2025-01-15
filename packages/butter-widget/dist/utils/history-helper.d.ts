@@ -1,4 +1,4 @@
-import { RouteObj } from "../utils/api/types";
+import { RouteObj } from '../utils/api/types';
 export interface HistoryEntity {
     fromAddress: string;
     toAddress: string;

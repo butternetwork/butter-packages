@@ -1,4 +1,4 @@
-import { Cards } from "../store/ui/types";
+import { Cards } from '../store/ui/types';
 declare const usePageController: () => {
     insertCard: ({ card }: {
         card: Cards;

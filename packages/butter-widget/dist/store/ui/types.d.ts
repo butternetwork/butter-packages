@@ -1,4 +1,4 @@
-import { EmblaCarouselType } from "embla-carousel";
+import { EmblaCarouselType } from 'embla-carousel';
 export declare enum Cards {
     History = "history",
     BestRoute = "bestRoute",

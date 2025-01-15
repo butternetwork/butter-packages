@@ -1,4 +1,4 @@
-import { Chain, SwapHistory, Token, Route, RouteTxData } from "@butternetwork/sdk";
+import { Chain, SwapHistory, Token, Route, RouteTxData } from '@butternetwork/sdk';
 export interface ChainTokenSelectedItem {
     chain: Chain | null;
     token: Token | null;

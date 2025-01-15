@@ -1,4 +1,4 @@
-import { SwapHistory, SwapHistoryChainItem, SwapHistoryDetail, SwapHistoryTokenItem } from "@butternetwork/sdk";
+import { SwapHistory, SwapHistoryChainItem, SwapHistoryDetail, SwapHistoryTokenItem } from '@butternetwork/sdk';
 interface HistoryListItemStepItem {
     token?: SwapHistoryTokenItem | null;
     chain: SwapHistoryChainItem;

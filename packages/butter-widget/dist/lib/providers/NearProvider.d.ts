@@ -1,8 +1,7 @@
-import type { AccountState, WalletSelector } from "@near-wallet-selector/core";
-import type { WalletSelectorModal } from "@near-wallet-selector/modal-ui";
-import type { ReactNode } from "react";
-import React from "react";
-import { Near } from "near-api-js";
+import { AccountState, WalletSelector } from '@near-wallet-selector/core';
+import { WalletSelectorModal } from '@near-wallet-selector/modal-ui';
+import { ReactNode, default as React } from 'react';
+import { Near } from 'near-api-js';
 declare global {
     interface Window {
         selector: WalletSelector;

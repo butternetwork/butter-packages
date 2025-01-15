@@ -1,5 +1,5 @@
-import { Wallet } from "../../../lib/wallets/useWallets";
-declare const getTokenBalance: import("@reduxjs/toolkit").AsyncThunk<{
+import { Wallet } from '../../../lib/wallets/useWallets';
+declare const getTokenBalance: import('@reduxjs/toolkit').AsyncThunk<{
     address: string;
     balance: string;
     chainId: string;
@@ -10,7 +10,7 @@ declare const getTokenBalance: import("@reduxjs/toolkit").AsyncThunk<{
     chainId: string;
 }, {
     state?: unknown;
-    dispatch?: import("redux-thunk").ThunkDispatch<unknown, unknown, import("redux").UnknownAction>;
+    dispatch?: import('redux-thunk').ThunkDispatch<unknown, unknown, import('redux').UnknownAction>;
     extra?: unknown;
     rejectValue?: unknown;
     serializedErrorType?: unknown;

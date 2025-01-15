@@ -1,4 +1,4 @@
-import { ChainItem, TokenItem } from "../../utils/api/types";
+import { ChainItem, TokenItem } from '../../utils/api/types';
 export type ChainBoxProps = {
     position: "From" | "To";
     chain: ChainItem | null | undefined;

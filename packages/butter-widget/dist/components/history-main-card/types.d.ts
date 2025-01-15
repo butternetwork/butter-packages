@@ -1,4 +1,4 @@
-import { UserSwapHistoryResponseItem } from "../../utils/api/types";
+import { UserSwapHistoryResponseItem } from '../../utils/api/types';
 export type HistoryMainCardProps = {
     onRemoved: () => void;
 };

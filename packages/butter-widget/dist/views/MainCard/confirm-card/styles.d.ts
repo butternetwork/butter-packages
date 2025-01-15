@@ -3,5 +3,5 @@ export declare const useConfirmCardStyles: (params: {
 }) => {
     classes: Record<"root" | "content" | "modalOverlay" | "tokenBox" | "addressBox", string>;
     cx: (...args: any) => string;
-    theme: import("@mantine/core").MantineTheme;
+    theme: import('@mantine/core').MantineTheme;
 };

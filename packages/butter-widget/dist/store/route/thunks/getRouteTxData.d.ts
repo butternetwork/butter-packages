@@ -1,12 +1,12 @@
-import { RouteTxData, Route } from "@butternetwork/sdk";
-export declare const getRouteTxData: import("@reduxjs/toolkit").AsyncThunk<RouteTxData[] | null, {
+import { RouteTxData, Route } from '@butternetwork/sdk';
+export declare const getRouteTxData: import('@reduxjs/toolkit').AsyncThunk<RouteTxData[] | null, {
     route: Route;
     slippage: string;
     toAddress: string;
     from: string;
 }, {
     state?: unknown;
-    dispatch?: import("redux-thunk").ThunkDispatch<unknown, unknown, import("redux").UnknownAction>;
+    dispatch?: import('redux-thunk').ThunkDispatch<unknown, unknown, import('redux').UnknownAction>;
     extra?: unknown;
     rejectValue?: unknown;
     serializedErrorType?: unknown;

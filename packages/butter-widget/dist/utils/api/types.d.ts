@@ -1,4 +1,4 @@
-import { Chain, SwapHistory, SwapHistoryDetail, Token } from "@butternetwork/sdk";
+import { Chain, SwapHistory, SwapHistoryDetail, Token } from '@butternetwork/sdk';
 export type TokenItem = Token;
 export interface MetamaskData {
     chainName: string;
