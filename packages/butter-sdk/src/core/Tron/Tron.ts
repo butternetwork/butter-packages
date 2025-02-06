@@ -26,12 +26,15 @@ export function createTronProvider(
       if (!fromAddress) {
         throw new Error(`Wallet is not connected.`);
       }
-      let functionSelector = route.method + "(";
-      route.args.map((item: any, index: number) => {
-        if (index !== 0) functionSelector += ",";
-        functionSelector += item.type;
-      });
-      functionSelector += ")";
+      let functionSelector = "";
+      if (route.args.length > 0) {
+        functionSelector = route.method + "(";
+        route.args.map((item: any, index: number) => {
+          if (index !== 0) functionSelector += ",";
+          functionSelector += item.type;
+        });
+        functionSelector += ")";
+      }
 
       const preExecResult =
         await tronClient.transactionBuilder.triggerConstantContract(
