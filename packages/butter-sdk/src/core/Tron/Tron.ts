@@ -27,14 +27,14 @@ export function createTronProvider(
         throw new Error(`Wallet is not connected.`);
       }
       let functionSelector = "";
-      if (route.args.length > 0) {
-        functionSelector = route.method + "(";
-        route.args.map((item: any, index: number) => {
-          if (index !== 0) functionSelector += ",";
-          functionSelector += item.type;
-        });
-        functionSelector += ")";
-      }
+      // if (route.args.length > 0) {
+      //   functionSelector = route.method + "(";
+      //   route.args.map((item: any, index: number) => {
+      //     if (index !== 0) functionSelector += ",";
+      //     functionSelector += item.type;
+      //   });
+      //   functionSelector += ")";
+      // }
 
       const preExecResult =
         await tronClient.transactionBuilder.triggerConstantContract(
@@ -42,8 +42,9 @@ export function createTronProvider(
           functionSelector,
           {
             callValue: Number(route.value),
+            input: route.data
           },
-          route.args,
+          [],
           fromAddress, // from address
         );
 
@@ -62,8 +63,9 @@ export function createTronProvider(
           {
             callValue: Number(route.value),
             feeLimit: 500000000,
+            input: route.data
           },
-          route.args,
+          [],
           fromAddress, // from address
         );
 
