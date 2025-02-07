@@ -22,18 +22,18 @@ export function createTronProvider(options) {
                 throw new Error(`Wallet is not connected.`);
             }
             let functionSelector = "";
-            if (route.args.length > 0) {
-                functionSelector = route.method + "(";
-                route.args.map((item, index) => {
-                    if (index !== 0)
-                        functionSelector += ",";
-                    functionSelector += item.type;
-                });
-                functionSelector += ")";
-            }
+            // if (route.args.length > 0) {
+            //   functionSelector = route.method + "(";
+            //   route.args.map((item: any, index: number) => {
+            //     if (index !== 0) functionSelector += ",";
+            //     functionSelector += item.type;
+            //   });
+            //   functionSelector += ")";
+            // }
             const preExecResult = await tronClient.transactionBuilder.triggerConstantContract(route.to, functionSelector, {
                 callValue: Number(route.value),
-            }, route.args, fromAddress);
+                input: route.data
+            }, [], fromAddress);
             if (!preExecResult ||
                 !preExecResult.constant_result ||
                 preExecResult.constant_result.length === 0) {
@@ -42,7 +42,8 @@ export function createTronProvider(options) {
             const unsignedTxn = await tronClient.transactionBuilder.triggerSmartContract(route.to, functionSelector, {
                 callValue: Number(route.value),
                 feeLimit: 500000000,
-            }, route.args, fromAddress);
+                input: route.data
+            }, [], fromAddress);
             const unsignedTxnData = unsignedTxn.transaction;
             if (!unsignedTxnData)
                 throw new Error("triggerSmartContract failed to create transaction");
