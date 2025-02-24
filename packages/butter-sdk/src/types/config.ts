@@ -19,6 +19,7 @@ export interface ButterSDKConfigOptions {
   historyApiUrl?: string;
   providers: ButterSDKProvider[];
   rpcs?: SDKRpcs;
+  queryChainsPath?: string;
 }
 
 export interface TronRpcConfig {

@@ -9,6 +9,7 @@ class ButterSDKConfig {
   public apiUrl: string;
   public routeApiUrl: string;
   public historyApiUrl: string;
+  public queryChainsPath: string = "queryChainList";
   public version: string;
   public providers: ButterSDKProvider[];
   public chains: Chain[] = [];
@@ -38,6 +39,7 @@ class ButterSDKConfig {
     this.routeApiUrl = options.routeApiUrl || this.routeApiUrl;
     this.providers = mergeProviders(this.providers, options.providers);
     this.rpcs = options.rpcs || this.rpcs;
+    this.queryChainsPath = options.queryChainsPath || this.queryChainsPath;
     this.loadChains();
   }
 

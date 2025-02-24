@@ -18,9 +18,7 @@ import type { Chain, Route, RouteTxData } from "../types/base.js";
  * get all supported chain
  */
 export const getChains = async () => {
-  const queryPath = butterConfig.routeApiUrl.includes("test")
-    ? "queryChainListTest"
-    : "queryChainList";
+  const queryPath = butterConfig.queryChainsPath;
   const response = await request<ChainsResponse>(
     `${butterConfig.apiUrl}/api/${queryPath}?type=1`,
     {
