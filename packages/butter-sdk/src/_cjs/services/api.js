@@ -4,9 +4,7 @@ exports.getSwapHistoryDetail = exports.getSwapHistory = exports.generateSwapData
 const request_js_1 = require("./request.js");
 const index_js_1 = require("../index.js");
 const getChains = async () => {
-    const queryPath = index_js_1.butterConfig.routeApiUrl.includes("test")
-        ? "queryChainListTest"
-        : "queryChainList";
+    const queryPath = index_js_1.butterConfig.queryChainsPath;
     const response = await (0, request_js_1.request)(`${index_js_1.butterConfig.apiUrl}/api/${queryPath}?type=1`, {
         method: "GET",
     });

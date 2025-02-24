@@ -4,9 +4,7 @@ import { butterConfig } from "../index.js";
  * get all supported chain
  */
 export const getChains = async () => {
-    const queryPath = butterConfig.routeApiUrl.includes("test")
-        ? "queryChainListTest"
-        : "queryChainList";
+    const queryPath = butterConfig.queryChainsPath;
     const response = await request(`${butterConfig.apiUrl}/api/${queryPath}?type=1`, {
         method: "GET",
     });

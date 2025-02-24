@@ -20,6 +20,12 @@ class ButterSDKConfig {
             writable: true,
             value: void 0
         });
+        Object.defineProperty(this, "queryChainsPath", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: "queryChainList"
+        });
         Object.defineProperty(this, "version", {
             enumerable: true,
             configurable: true,
@@ -69,6 +75,7 @@ class ButterSDKConfig {
         this.routeApiUrl = options.routeApiUrl || this.routeApiUrl;
         this.providers = mergeProviders(this.providers, options.providers);
         this.rpcs = options.rpcs || this.rpcs;
+        this.queryChainsPath = options.queryChainsPath || this.queryChainsPath;
         this.loadChains();
     }
     async getChainById(chainId) {

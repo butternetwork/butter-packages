@@ -6,6 +6,7 @@ declare class ButterSDKConfig {
     apiUrl: string;
     routeApiUrl: string;
     historyApiUrl: string;
+    queryChainsPath: string;
     version: string;
     providers: ButterSDKProvider[];
     chains: Chain[];
